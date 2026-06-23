@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2>Career Portal</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume Analyzer</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="interview.html">Interview</a></li>
+            <li><a href="career.html">Career Guide</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="contact-container">
+        <h1>📧 Contact Us</h1>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Enter Your Name" required>
+            <input type="email" id="email" placeholder="Enter Your Email" required>
+            <textarea id="message" placeholder="Enter Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="successMsg"></div>
+    </div>
+
+    <script src="contact.js"></script>
+</body>
+</html>
